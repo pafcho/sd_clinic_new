@@ -79,8 +79,8 @@
 					клиниката бързо се превръща в един от най-добрите дентални центрове не само в Стара Загора, но и в България.
 					В основата на нашата практика е индивидуалният подход и съобразяването на лечебния план с характерните особености и изисквания на всеки пациент.
 					Нашата мисия е да ви дарим със здрава и красива усмивка, която заслужавате.</p>
-                    <a href="" class="main_btn">Make an Appointment</a>
-                    <a href="" class="main_btn_light">View Department</a>
+                    <a href="" class="main_btn">Заяви Час Online</a>
+                    <a href="" class="main_btn_light">Нашите Услуги</a>
                 </div>
             </div>
         </div>
@@ -321,7 +321,7 @@
                                 <div class="card-header" id="headingThree">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Каква е причината за лош дъх?
+                                            Каква е причината за лошият дъх?
                                         </button>
                                     </h5>
                                 </div>
@@ -336,7 +336,7 @@
                                 <div class="card-header" id="headingFour">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            Как да избегнем задържането на храна между зъбите ?
+                                            Как да не задържаме на храна между зъбите си?
                                         </button>
                                     </h5>
                                 </div>
@@ -367,20 +367,20 @@
                     <div class="col-lg-5">
                         <div class="appointment-form">
                             <h3>Make an Appointment</h3>
-                            <form action="#">
+                            <form action="https://formspree.io/rubiev.pavel@gmail.com" method="POST">
                                 <div class="form-group">
                                     <label>Full Name</label>
-                                    <input type="text" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" required>
+                                    <input id="name" name="name" type="text" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" required>
                                 </div>
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input type="email" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" required>
+                                    <input id="email" name="email" type="email" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" required>
                                 </div>
                                 <div class="form-group">
                                     <label>Message</label>
-                                    <textarea name="message" cols="20" rows="7"  placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required></textarea>
+                                    <textarea id="message" name="message" cols="20" rows="7"  placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required></textarea>
                                 </div>
-                                <a href="#" class="main_btn">Make an Appointment</a>
+                                <button type="submit" class="main_btn" id="submitForm">Направи Заявка</button>
                             </form>
                         </div>
                     </div>
@@ -680,7 +680,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/stellar.js"></script>
@@ -693,5 +693,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/mail-script.js"></script>
 <script src="js/theme.js"></script>
+<script src="js/contactFrom.js"></script>
 </body>
 </html>
