@@ -3452,6 +3452,11 @@ h6 {
     font-size: 17px;
     margin-right: 3px;	
    } 
+   
+   #submitForm {
+	border: none;
+	background: #0051d2;
+   }
   
 /*---------------------------------------------------- */
 
