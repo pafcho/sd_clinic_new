@@ -1556,7 +1556,8 @@ ul {
   box-shadow: 3.517px -8.285px 30px 0px rgba(12, 58, 132, 0.15);
   background: #fff;
   z-index: 11;
-  position: relative; }
+  position: relative; 
+  margin-top: 60px; }
   @media (max-width: 991px) {
     .appointment-area .appointment-inner {
       padding: 65px 30px; } }
