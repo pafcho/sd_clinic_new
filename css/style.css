@@ -3423,8 +3423,12 @@ h6 {
     margin-top: 35px; } }
 /*---------------------------My Changes---------------------------*/
   .home-banner-paragraph{
-	color: #ffffff;  
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    margin-top: 10px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 	
   }
   
   .home-banner-header{
@@ -3463,6 +3467,10 @@ h6 {
    #serviceImage {
 	   margin-bottom: 10px;
    }
+   
+   hr {
+	border: 1px solid #5682c7ad;
+  }
   
 /*---------------------------------------------------- */
 
