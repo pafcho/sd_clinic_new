@@ -3141,14 +3141,15 @@ h6 {
     @media (max-width: 767px) {
       .hotline-area h2 {
         margin-bottom: 26px; } }
-  .hotline-area span {
+  .hotline-area a {
+	color: #fff;
     font-size: 60px;
     font-weight: 800;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 28px;
     display: block; }
     @media (max-width: 767px) {
-      .hotline-area span {
+      .hotline-area a {
         font-size: 25px;
         margin-bottom: 0; } }
   .hotline-area p {
