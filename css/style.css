@@ -3426,10 +3426,10 @@ h6 {
   .home-banner-paragraph{
     font-size: 17px;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 300;
     font-family: "Playfair Display", serif;
     margin-top: 10px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 	
+	background: #2556b4db;
   }
   
   .home-banner-header{
