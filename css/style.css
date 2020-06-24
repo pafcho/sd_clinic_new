@@ -2814,7 +2814,7 @@ h6 {
   transition: all 300ms linear 0s; }
   .main_btn:hover {
     background: #fff;
-    color: #0051d2; }
+    color: #d2d2de; }
 
 .main_btn_light {
   display: inline-block;
@@ -3469,15 +3469,20 @@ h6 {
 	   margin-bottom: 10px;
    }
    
-   hr {
-	border: 1px solid #5682c7ad;
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+	height:0;
   }
-  /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-  #map
-  {
-	width:-webkit-fill-available
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
   }
+  
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
