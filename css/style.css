@@ -3483,6 +3483,30 @@ h6 {
     position:absolute;
   }
   
+  @media (min-width: 991px) {
+	#velin-card-text {
+	  padding-top: 109px;
+	} 
+  }
+  
+  @media (min-width: 1200px) {
+	#velin-card-text {
+	  padding-top: 99px;
+	} 
+  }
+  
+    @media (min-width: 991px) {
+	#todor-card-text {
+	  padding-top: 136px;
+	} 
+  }
+  
+  @media (min-width: 1200px) {
+	#todor-card-text {
+	  padding-top: 132px;
+	} 
+  }
+  
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
